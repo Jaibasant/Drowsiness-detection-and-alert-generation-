@@ -20,3 +20,16 @@ Each eye is represented by 6 (x, y)-coordinates, starting at the left-corner of 
 
 It checks 20 consecutive frames and if the Eye Aspect ratio is less than 0.25, Alert is generated.
 
+This image shows the GPIO (General Purpose Input/Output) pin configuration of the Raspberry Pi Zero.
+It highlights crucial connections for peripherals like the camera, HDMI, USB ports, and power.
+The GPIO pins are essential for interfacing with sensors, including those needed for drowsiness detection, such as an infrared camera or an eye-tracking module.
+
+![Image](https://github.com/user-attachments/assets/80ee09e6-5551-4ee7-b1b8-0d2ae795270b)
+
+This circuit diagram demonstrates how a Raspberry Pi 2 can be connected to various components like a camera module, LCD display, buzzer, and LED using a breadboard.
+The camera module is crucial for detecting eye movement and signs of drowsiness.
+The buzzer and LED can serve as alert mechanisms when drowsiness is detected.
+The LCD display can show system status or warning messages.
+
+![Image](https://github.com/user-attachments/assets/2fbc782a-7400-47c0-9afe-13a3ac6dbb5a)
+
